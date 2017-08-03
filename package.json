@@ -1,0 +1,26 @@
+{
+  "name": "hopin-test-runner",
+  "version": "0.0.1",
+  "description": "A highly opinionated test runner",
+  "main": "src/npm-module.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauntface/hopin-test-runner.git"
+  },
+  "keywords": [
+    "testing",
+    "tests",
+    "test",
+    "runner",
+    "hopin"
+  ],
+  "author": "gauntface",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gauntface/hopin-test-runner/issues"
+  },
+  "homepage": "https://github.com/gauntface/hopin-test-runner#readme"
+}
