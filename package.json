@@ -4,7 +4,7 @@
   "description": "A highly opinionated test runner",
   "main": "src/npm-module.js",
   "scripts": {
-    "test": "nyc mocha './test/node/**/*.js'"
+    "test": "nyc --reporter=lcov --reporter=text mocha './test/node/**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   "homepage": "https://github.com/gauntface/hopin-test-runner#readme",
   "devDependencies": {
     "chai": "^4.1.0",
+    "glob": "^7.1.2",
     "mocha": "^3.5.0",
     "nyc": "^11.1.0"
   }
