@@ -1,3 +1,5 @@
+'use strict';
+
 const NodeTestModel = require('../models/NodeTestModel');
 
 class HopinTestRunner {
